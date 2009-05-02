@@ -1,0 +1,10 @@
+h2. Quickstart
+
+# Download the source files and upload them to your server.
+# Put the plugin file into system/plugins and the javascript and css files into publicly accessible folders.
+# Link to the css and javascript files in the element of your page.
+# Create an empty template and enter the following tag:
+## @{exp:live_search:results}@
+
+# Now add an input box to your page and hijack it with javascript as follows. Remember to change the path to point to the template you created above.
+## @$('#keywords').livesearch('/search/livesearch/');@
